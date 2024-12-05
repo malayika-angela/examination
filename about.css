@@ -1,0 +1,38 @@
+body{
+   
+    background-image: url(product.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backface-visibility: visible;
+}
+
+.list{
+    color: rgb(235, 244, 235);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: rgb(173, 234, 173);
+    padding: 5px;
+    width: 1700px;
+
+}
+.hob :hover{
+    color: blue;
+
+
+}
+.me{
+    color: green;
+    width: 500px;
+    height: 500px;
+    background-color:transparent;
+    backface-visibility: visible;
+}
+.hob{
+    color: green;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
